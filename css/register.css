@@ -1,0 +1,74 @@
+*{
+    margin: 0%;
+    box-sizing: border-box;
+    padding: 0%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items:start;
+    min-height: 100vh;
+    font-size: 16px;
+    font-weight: bolder;
+    background: #4969b4;
+    padding: 150px;
+}
+.container{
+    width: 600px;
+    background:#fff;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+    padding: 40px;
+    text-align: center;
+}
+.logo{
+    margin-bottom: 25px;
+    text-align: start;
+    font-size: 35px;
+    color: #2566c1;
+}
+.inbox{
+    margin-bottom: 15px;
+}
+.form_info{
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid silver;
+    caret-color: #4969b4;
+    cursor: pointer;
+}
+.form_info:focus{
+    border: 1px solid rgb(0, 208, 255);
+    box-shadow: 0px 0px 2px rgba(2, 175, 255, 0.839);
+    cursor: auto;
+}
+.form_btn{
+    margin-top: 25px;
+    margin-bottom: 18px;
+}
+.re_btn{
+    width: 100%;
+    padding: 10px;
+    font-size: 18px;
+   color: #fff;
+   background-color: #4969b4;
+   border: none;
+   border-radius: 5px;
+   cursor: pointer;
+}
+.form_link{
+    color: #4969b4;
+    font-weight: lighter;
+    margin-top: 10px;
+}
+.log_link{
+    color: #2566c1;
+    text-decoration: none;
+}
+/* ====php_wrong_border_design_start===== */
+.wrong{
+    border: 1px solid #ff0000;
+}
+/* ====php_wrong_border_design_end===== */
